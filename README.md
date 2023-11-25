@@ -14,13 +14,53 @@ JWT 암호화를 사용하여 토큰의 무결성을 보장하고, 사용자의 
 ### OAuth2.0 소셜 로그인
 카카오와 구글로 빠르게 로그인할 수 있도록 사용자의 편의성을 높였습니다.
 ### 이미지 업로드
-
+AWS S3를 통해 이미지 파일을 업로드하고 관리합니다.
 ### 검색 및 필터 기능
+ElasticSearch로 검색을 구현했으며, 지도를 통해 빠르게 결과를 확인할 수 있습니다.
 ### 일정 관리 기능
+여러 일정을 손쉽게 등록, 삭제할 수 있도록 과정을 통합했습니다.
 ### 좋아요, 조회수 기능
+캐시를 활용해 조회수 중복을 방지했습니다.
 
 ## 기술 스택 
-<img src="https://img.shields.io/badge/java-F46D01?style=for-the-badge&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/SpringBoot-6DA252?style=for-the-badge&logo=SpringBoot&logoColor=white"> <img src="https://img.shields.io/badge/Spring Data JPA-418813?style=for-the-badge&logo=Spring Data JPA&logoColor=white"> <img src="https://img.shields.io/badge/Spring Security-569A31?style=for-the-badge&logo=Spring Security&logoColor=white"> <img src="https://img.shields.io/badge/QueryDSL-2E77BC?style=for-the-badge&logo=QueryDSL&logoColor=white"> <img src="https://img.shields.io/badge/Gradle-173B3F?style=for-the-badge&logo=Gradle&logoColor=white"> <img src="https://img.shields.io/badge/Junit5-EF443B?style=for-the-badge&logo=Junit5&logoColor=white"> <img src="https://img.shields.io/badge/Mokito-01FF95?style=for-the-badge&logo=Mokito&logoColor=white"> <img src="https://img.shields.io/badge/MariaDB-1D2D35?style=for-the-badge&logo=MariaDB&logoColor=white"> <img src="https://img.shields.io/badge/Redis-E01F3D?style=for-the-badge&logo=Redis&logoColor=white"> <img src="https://img.shields.io/badge/ElasticSearch-EAB300?style=for-the-badge&logo=ElasticSearch&logoColor=white"> <img src="https://img.shields.io/badge/RDS-137CBD?style=for-the-badge&logo=amazonrds&logoColor=white"> <img src="https://img.shields.io/badge/S3-DC2829?style=for-the-badge&logo=amazons3&logoColor=white"> <img src="https://img.shields.io/badge/EC2-FF5100?style=for-the-badge&logo=amazonec2&logoColor=white"> <img src="https://img.shields.io/badge/Route 53-FF5722?style=for-the-badge&logo=amazonroute53&logoColor=white"> <img src="https://img.shields.io/badge/CodeDeploy-58A616?style=for-the-badge&logo=CodeDeploy&logoColor=white"> <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=GitHub&logoColor=white"> <img src="https://img.shields.io/badge/Git Action-1D9BF0?style=for-the-badge&logo=githubactions&logoColor=white"> <img src="https://img.shields.io/badge/smtp-5BC4EE?style=for-the-badge&logo=smtp&logoColor=white"> <img src="https://img.shields.io/badge/oauth2-3333FF?style=for-the-badge&logo=oauth2&logoColor=white"> <img src="https://img.shields.io/badge/json web token-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"> <img src="https://img.shields.io/badge/swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white"> <img src="https://img.shields.io/badge/postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"> <img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"> <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
+프로그래밍 언어 및 프레임워크
+<img src="https://img.shields.io/badge/java-F46D01?style=for-the-badge&logo=java&logoColor=white">
+<img src="https://img.shields.io/badge/SpringBoot-6DA252?style=for-the-badge&logo=SpringBoot&logoColor=white">
+<img src="https://img.shields.io/badge/Spring Data JPA-418813?style=for-the-badge&logo=Spring Data JPA&logoColor=white">
+<img src="https://img.shields.io/badge/Spring Security-569A31?style=for-the-badge&logo=Spring Security&logoColor=white">
+<img src="https://img.shields.io/badge/QueryDSL-2E77BC?style=for-the-badge&logo=QueryDSL&logoColor=white">
+
+빌드 도구
+<img src="https://img.shields.io/badge/Gradle-173B3F?style=for-the-badge&logo=Gradle&logoColor=white">
+
+데이터베이스
+<img src="https://img.shields.io/badge/MariaDB-1D2D35?style=for-the-badge&logo=MariaDB&logoColor=white">
+<img src="https://img.shields.io/badge/Redis-E01F3D?style=for-the-badge&logo=Redis&logoColor=white">
+<img src="https://img.shields.io/badge/ElasticSearch-EAB300?style=for-the-badge&logo=ElasticSearch&logoColor=white">
+
+AWS 서비스
+<img src="https://img.shields.io/badge/RDS-137CBD?style=for-the-badge&logo=amazonrds&logoColor=white">
+<img src="https://img.shields.io/badge/S3-DC2829?style=for-the-badge&logo=amazons3&logoColor=white">
+<img src="https://img.shields.io/badge/EC2-FF5100?style=for-the-badge&logo=amazonec2&logoColor=white">
+<img src="https://img.shields.io/badge/Route 53-FF5722?style=for-the-badge&logo=amazonroute53&logoColor=white">
+<img src="https://img.shields.io/badge/CodeDeploy-58A616?style=for-the-badge&logo=CodeDeploy&logoColor=white">
+
+CI/CD & 협업 도구
+<img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=GitHub&logoColor=white">
+<img src="https://img.shields.io/badge/Git Action-1D9BF0?style=for-the-badge&logo=githubactions&logoColor=white">
+<img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">
+<img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
+
+보안
+<img src="https://img.shields.io/badge/smtp-5BC4EE?style=for-the-badge&logo=smtp&logoColor=white">
+<img src="https://img.shields.io/badge/oauth2-3333FF?style=for-the-badge&logo=oauth2&logoColor=white">
+<img src="https://img.shields.io/badge/json web token-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white">
+
+테스트 도구
+<img src="https://img.shields.io/badge/Junit5-EF443B?style=for-the-badge&logo=Junit5&logoColor=white">
+<img src="https://img.shields.io/badge/Mokito-01FF95?style=for-the-badge&logo=Mokito&logoColor=white">
+<img src="https://img.shields.io/badge/postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white">
+<img src="https://img.shields.io/badge/swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white">
 
 ## 아키텍처
 <img width="908" alt="architecture" src="https://github.com/triptalk-4/triptalk-backend/assets/129822965/8afe589b-6f38-4018-a7c6-45f4dac94f13">
